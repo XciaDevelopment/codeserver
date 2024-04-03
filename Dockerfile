@@ -12,7 +12,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash - && \
     apt-get install -y nodejs
 
 # Install Code Server
-RUN curl -fsSL https://code-server.dev/install.sh | sh
+RUN curl -fsSL https://aka.ms/install-vscode-server/setup.sh | sh
 
 
 
